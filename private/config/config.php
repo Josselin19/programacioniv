@@ -1,7 +1,6 @@
-<?php 
-/**
- * Importamos la clase principal de conexion
- */
-include('../../Conexion/DB.php');
-$conexion = new DB('localhost','root','','db_app_academica');
+<?php
+
+include('../../conexion/db.php');
+$conexion = new Conexion('localhost','root','','db_app_academica');
+
 ?>
